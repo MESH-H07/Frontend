@@ -1,0 +1,6 @@
+{
+	"appId": "com.ho7.familiar",
+	"appName": "Familiar",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
