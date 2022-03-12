@@ -54,13 +54,13 @@ const App: React.FC = () => (
                     <Route path="" render={() => <Redirect to='/mentorPage'/>} exact={true}/>
                 </IonRouterOutlet>
                 <IonTabBar slot="bottom" class={'yellowBar'}>
+                    <IonTabButton tab="mentorPage" href="/mentorPage">
+                        <IonIcon icon={square}/>
+                    </IonTabButton>
                     <IonTabButton tab="eventPage" href="/eventPage">
                         <IonIcon icon={square}/>
                     </IonTabButton>
                     <IonTabButton tab="chatPage" href="/chatPage">
-                        <IonIcon icon={square}/>
-                    </IonTabButton>
-                    <IonTabButton tab="mentorPage" href="/mentorPage">
                         <IonIcon icon={square}/>
                     </IonTabButton>
                     <IonTabButton tab="pointsOfInterestPage" href="/pointsOfInterestPage">

@@ -1,15 +1,16 @@
 import React from "react";
 import {
-    IonApp,
+    IonApp, IonContent,
     IonHeader,
     IonIcon,
-    IonLabel,
+    IonLabel, IonList, IonListHeader,
     IonPage,
     IonRouterOutlet,
     IonTabBar,
     IonTabButton,
     IonTabs, IonTitle, IonToolbar
 } from "@ionic/react";
+import './Form.css';
 
 
 const eventPage: React.FC = () => (
@@ -18,6 +19,16 @@ const eventPage: React.FC = () => (
             <IonToolbar class={'yellowBar'}>
             </IonToolbar>
         </IonHeader>
+        <IonContent>
+            <IonLabel class='ion-margin-top headerFont'>
+                Events
+            </IonLabel>
+            <IonList>
+                <IonListHeader>
+                    <IonLabel>Nearby</IonLabel>
+                </IonListHeader>
+            </IonList>
+        </IonContent>
     </IonPage>
 );
 

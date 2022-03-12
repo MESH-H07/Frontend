@@ -1,0 +1,9 @@
+.headerFont {
+    color: #030104;
+    font-size: 20px;
+}
+
+ion-content {
+    --padding-top: 20px;
+    --padding-start: 20px;
+}
