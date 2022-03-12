@@ -229,10 +229,6 @@ http://ionicframework.com/docs/theming/ */
   }
 }
 
-:host {
-  border: none;
-}
-
 ion-tab-button {
   --color: #fbfcf8;
   --color-selected: #edc619;
@@ -240,8 +236,6 @@ ion-tab-button {
 
 .yellowBar {
   --background: #fff3be;
-  --color: #fff3be;
-  --border: none;
 }
 
 .header-md::after {
