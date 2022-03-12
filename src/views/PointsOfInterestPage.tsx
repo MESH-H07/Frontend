@@ -1,23 +1,14 @@
 import React from "react";
-import {
-    IonApp,
-    IonHeader,
-    IonIcon,
-    IonLabel,
-    IonPage,
-    IonRouterOutlet,
-    IonTabBar,
-    IonTabButton,
-    IonTabs, IonTitle, IonToolbar
-} from "@ionic/react";
+import { IonHeader, IonPage, IonTitle, IonToolbar } from "@ionic/react";
 
-const eventPage: React.FC = () => (
-    <IonPage>
-        <IonHeader>
-            <IonToolbar class={'yellowBar'}>
-            </IonToolbar>
-        </IonHeader>
-    </IonPage>
+const PoiPage: React.FC = () => (
+  <IonPage>
+    <IonHeader>
+      <IonToolbar class={"yellowBar"}>
+        <IonTitle color={"secondary"}>Familiar</IonTitle>
+      </IonToolbar>
+    </IonHeader>
+  </IonPage>
 );
 
-export default eventPage;
+export default PoiPage;
