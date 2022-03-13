@@ -1,0 +1,56 @@
+{
+  "locations": [
+    {
+      "id": 11,
+      "street": "Muster",
+      "number": 69,
+      "supplement": "AB",
+      "city": "MusterStadt",
+      "zip": 69420,
+      "description": null,
+      "note": null,
+      "coordinatesId": 2,
+      "organisationExtensionId": 1,
+      "OrganisationExtension": {
+        "id": 1,
+        "name": "LichterOrg",
+        "description": "Org from lichter",
+        "userId": 2,
+        "User": {
+          "id": 2,
+          "email": "org@gmail.com",
+          "username": "org1",
+          "password": "1234",
+          "role": "ORGANISATION",
+          "city": "Berlin"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "street": "Muster",
+      "number": 69,
+      "supplement": "AB",
+      "city": "MusterStadt",
+      "zip": 69420,
+      "description": null,
+      "note": null,
+      "coordinatesId": 2,
+      "organisationExtensionId": 1,
+      "OrganisationExtension": {
+        "id": 1,
+        "name": "LichterOrg",
+        "description": "Org from lichter",
+        "userId": 2,
+        "User": {
+          "id": 2,
+          "email": "org@gmail.com",
+          "username": "org1",
+          "password": "1234",
+          "role": "ORGANISATION",
+          "city": "Berlin"
+        }
+      }
+    }
+  ]
+}
