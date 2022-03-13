@@ -16,6 +16,7 @@ import hostedByMentors from "../db/mocks/hostedByMentors.json"
 import nearbyEvents from "../db/mocks/nearbyEvents.json"
 import city from '../assets/92.jpg'
 
+
 const EventPage: React.FC = () => (
 
         <IonPage>
@@ -60,8 +61,9 @@ const EventPage: React.FC = () => (
                         <IonRow>
                             {hostedByMentors.events.map((occasion: any) => (
                                 <IonCol key={occasion.id}>
-                                    <IonItem onClick={() => console.log(occasion.name)}
-                                             button>
+                                    <IonItem
+                                        onClick={() => console.log(occasion.name)}
+                                        button>
                                         <IonThumbnail slot="start">
                                             <img src={city} alt={'image of new york'}/>
                                         </IonThumbnail>
