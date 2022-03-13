@@ -1,0 +1,68 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "email": "LOL@gmail.com",
+      "username": "LEL",
+      "password": "1234",
+      "role": "IMMIGRANT",
+      "city": "Berlin",
+      "Chat1": [
+        {
+          "id": 1,
+          "userId1": 1,
+          "userId2": 2,
+          "user2": {
+            "id": 2,
+            "email": "org@gmail.com",
+            "username": "org1",
+            "password": "1234",
+            "role": "ORGANISATION",
+            "city": "Berlin"
+          }
+        },
+        {
+          "id": 4,
+          "userId1": 1,
+          "userId2": 2,
+          "user2": {
+            "id": 2,
+            "email": "org@gmail.com",
+            "username": "org1",
+            "password": "1234",
+            "role": "ORGANISATION",
+            "city": "Berlin"
+          }
+        }
+      ],
+      "Chat2": [
+        {
+          "id": 3,
+          "userId1": 2,
+          "userId2": 1,
+          "user1": {
+            "id": 2,
+            "email": "org@gmail.com",
+            "username": "org1",
+            "password": "1234",
+            "role": "ORGANISATION",
+            "city": "Berlin"
+          }
+        },
+        {
+          "id": 5,
+          "userId1": 2,
+          "userId2": 1,
+          "user1": {
+            "id": 2,
+            "email": "org@gmail.com",
+            "username": "org1",
+            "password": "1234",
+            "role": "ORGANISATION",
+            "city": "Berlin"
+          }
+        }
+      ]
+    }
+  ]
+}
